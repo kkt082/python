@@ -4,8 +4,7 @@ from calc import sum
 print(calc.sum(1, 2))
 print(sum(1, 2))
 
-# PYTHONPATH 환경변수 설정 고려 
-import calculate.say.hello
+# PYTHONPATH 환경변수 설정 고려
 
 import calculate.say.talk as talk
 talk.talk('Hello Wold')
